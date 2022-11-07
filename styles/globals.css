@@ -4,6 +4,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background-color: rgba(10, 92, 92, 0.886);
+  background: linear-gradient(#fc000099, #0000ffa8, black);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; */
 }
 
 a {
@@ -19,8 +25,13 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
